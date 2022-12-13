@@ -2,7 +2,7 @@ const express = require('express'); //es como el servidor de http
 const { dirname } = require('path');
 const app = express();//app es el servidor
 
-require('dotenv').config();
+require('dotenv').config();//Variables de Entorno
 
 const puerto = process.env.PORT || 3000;///process.env.PORT es para que Heroku le asigne el puerto
 
